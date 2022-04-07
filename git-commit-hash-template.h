@@ -2,5 +2,6 @@
 #define GITCOMMITHASHTEMPLATE_H
 
 #define GIT_COMMIT_HASH "{commit_hash}"
+#define GIT_COMMIT_DATE "{commit_date}"
 
 #endif // GITCOMMITHASHTEMPLATE_H
