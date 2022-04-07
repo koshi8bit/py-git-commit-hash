@@ -7,6 +7,7 @@ def main():
     # os.system(f"git clone -o gh {url}")
     # a, b = os.system(f"git rev-parse HEAD")
     import subprocess
+    print(os.getcwd())
     a = os.popen(f"git rev-parse HEAD").read().strip()
     print(f"{a}")
     with open("git-commit-hash-template.h", "r") as f:
